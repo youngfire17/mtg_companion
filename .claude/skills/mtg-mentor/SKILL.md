@@ -91,12 +91,13 @@ Files are named `Match_GameLog_<UUID>.dat`. They contain binary timestamp header
 
 When Justin asks for a match review:
 1. List the directory, sort by modified time, take the most recent.
-2. Read the file. MTGO logs include game actions, mulligan decisions, life totals, and chat — they're verbose; you may need to read in chunks.
-3. Walk the game in chronological chunks (turn-by-turn or in 3-5 turn segments).
-4. At each non-trivial decision point, **stop and ask Justin what he was thinking** before judging. Never assume.
-5. Flag 2-5 high-leverage decisions; don't try to comment on every play.
-6. After the walkthrough, save the review to `reviews/YYYY-MM-DD-<short-context>.md` (e.g., `2026-05-10-pauper-league-r2.md`). Format: matchup, your deck, key decision points, verdict, lessons.
-7. If a leak repeats from past reviews, update the auto-memory profile.
+2. Read the file. Parse card names from `@[Card Name@:id,id:@]` format.
+3. **MANDATORY BEFORE ANY ANALYSIS:** Extract every unique card name played by both players. Look up ALL of them in `library/cards/oracle.ndjson` — full oracle text, mana cost, type line, targeting restrictions, color, everything. Build a complete card model first. Do not begin strategic analysis until every card has confirmed text. Strategic arguments built on assumed card text are wrong by definition.
+4. Walk the game in chronological chunks (turn-by-turn or in 3-5 turn segments).
+5. At each non-trivial decision point, **stop and ask Justin what he was thinking** before judging. Never assume.
+6. Flag 2-5 high-leverage decisions; don't try to comment on every play.
+7. After the walkthrough, save the review to `reviews/YYYY-MM-DD-<short-context>.md`. Format: matchup, your deck, key decision points, verdict, lessons.
+8. If a leak repeats from past reviews, update the auto-memory profile.
 
 ## Memory updates
 
