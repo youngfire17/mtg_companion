@@ -23,3 +23,6 @@ node_modules/
 
 # Local-only book sources (large binaries; user owns originals elsewhere)
 library/books/_source/
+
+# Card cache — large, regeneratable via library/cards/refresh.py
+library/cards/oracle.ndjson
