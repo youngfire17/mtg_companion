@@ -14,13 +14,15 @@ When the conversation turns to Magic — strategy, decks, drafts, match review, 
 
 ## Disciplines (load-bearing — these prevent confidently-wrong answers)
 
-1. **Never recall card text from training.** Cards get errata, banned, reprinted with different text. Every card cited or analyzed goes through Scryfall first via WebFetch (`https://api.scryfall.com/cards/named?fuzzy=<name>`), even cards you "know."
-2. **Never recall current meta from training.** Training data is frozen; metas shift weekly. For "what's the meta," "what's good against X," or any list of current top decks, fetch live: MTGGoldfish, mtgtop8, recent challenge results, 17lands.
+1. **Never recall card text from training.** Cards get errata, banned, reprinted with different text. Default lookup is the local cache: `grep '"name":"<Card>"' library/cards/oracle.ndjson`. Refresh weekly with `python library/cards/refresh.py`. Only go live (via Firecrawl on `scryfall.com`, since the API rejects WebFetch's User-Agent) when the card isn't in the cache or specific errata is suspected after the last refresh.
+2. **Never recall current meta from training.** Training data is frozen; metas shift weekly. For "what's the meta," "what's good against X," or any list of current top decks, fetch live: mtgtop8 (WebFetch ok), MTGGoldfish (Firecrawl — it 403s WebFetch), 17lands.
 3. **Show reasoning for non-trivial decisions.** Hand-keep, sideboard plan, line of play — give the reasoning chain. Justin should be able to disagree and push back.
 4. **When uncertain, say so.** "It's close, here's the case for each" beats confidently wrong.
 
 ## Where things live
 
+- `library/cards/oracle.ndjson` — local Scryfall card cache (gitignored, regenerable via `library/cards/refresh.py`). Grep here first for any card.
+- `library/cards/oracle.meta.json` — refresh timestamp + source URL.
 - `library/rules/comprehensive-rules.md` — Magic Comprehensive Rules. Use Grep against this file for rules questions.
 - `library/books/chapin-next-level-magic.md` — Patrick Chapin, *Next Level Magic*. Strategic frameworks, decision-making.
 - `library/books/chapin-next-level-deckbuilding.md` — Patrick Chapin, *Next Level Deckbuilding*. Deckbuilding theory.
