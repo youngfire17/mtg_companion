@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NetDeckID>0</NetDeckID>
+  <PreconstructedDeckID>0</PreconstructedDeckID>
+  <Cards CatID="60739" Quantity="4" Sideboard="false" Name="Faithless Looting" Annotation="0" />
+  <Cards CatID="124169" Quantity="4" Sideboard="false" Name="Highway Robbery" Annotation="0" />
+  <Cards CatID="130407" Quantity="4" Sideboard="false" Name="Grab the Prize" Annotation="0" />
+  <Cards CatID="17520" Quantity="4" Sideboard="false" Name="Lava Dart" Annotation="0" />
+  <Cards CatID="37240" Quantity="4" Sideboard="false" Name="Lightning Bolt" Annotation="0" />
+  <Cards CatID="59934" Quantity="4" Sideboard="false" Name="Fiery Temper" Annotation="0" />
+  <Cards CatID="53071" Quantity="3" Sideboard="false" Name="Fireblast" Annotation="0" />
+  <Cards CatID="94670" Quantity="4" Sideboard="false" Name="Kessig Flamebreather" Annotation="0" />
+  <Cards CatID="68451" Quantity="3" Sideboard="false" Name="Guttersnipe" Annotation="0" />
+  <Cards CatID="94710" Quantity="4" Sideboard="false" Name="Voldaren Epicure" Annotation="0" />
+  <Cards CatID="126429" Quantity="4" Sideboard="false" Name="Sneaky Snacker" Annotation="0" />
+  <Cards CatID="267" Quantity="18" Sideboard="false" Name="Mountain" Annotation="0" />
+  <Cards CatID="57620" Quantity="4" Sideboard="true" Name="Smash to Smithereens" Annotation="0" />
+  <Cards CatID="30895" Quantity="3" Sideboard="true" Name="Relic of Progenitus" Annotation="0" />
+  <Cards CatID="35559" Quantity="3" Sideboard="true" Name="Searing Blaze" Annotation="0" />
+  <Cards CatID="94648" Quantity="4" Sideboard="true" Name="End the Festivities" Annotation="0" />
+</Deck>
