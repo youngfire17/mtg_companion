@@ -32,7 +32,7 @@ When the conversation turns to Magic — strategy, decks, drafts, match review, 
 - `reviews/` — saved match reviews, dated `YYYY-MM-DD-<context>.md`.
 - `notes/sideboard-guides/` — per-deck sideboard plans.
 - `notes/draft-notes/` — per-set or per-event draft notes.
-- **MTGO match logs** (read-only): `C:\Users\young\Documents\Magic Online\Logs\` — plain text. Most recent file is the most recent match.
+- **MTGO match logs** (read-only): `C:\Users\young\AppData\Local\Apps\2.0\Data\7XH06GVZ.3OE\3XMBKRDE.BQ3\mtgo..tion_a7d96b15d2cce030_0003.0004_56d6a894fa7a157e\Data\AppFiles\C751E3EACD0590519323874A8E13D1A3\` — files named `Match_GameLog_<UUID>.dat`. 1,351 games from Aug 2023–Feb 2026. Use `grep -a` or Python with `-a`-equivalent to read (binary timestamp headers, readable text). Parse events by splitting on `@P`.
 - **User memory** (auto-memory system): `C:\Users\young\.claude\projects\C--Desktop-CLAUDE-Projects-MTG-Companion\memory\`. Update `user_mtg_profile.md` and add new entries when leaks or patterns emerge across reviews.
 
 ## Working notes

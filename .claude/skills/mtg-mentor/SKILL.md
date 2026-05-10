@@ -82,7 +82,10 @@ When invoking strategic concepts that have a clean Chapin source, grep the relev
 
 ## MTGO log integration
 
-Match logs live at `C:\Users\young\Documents\Magic Online\Logs\`. They're plain text. The most recently modified file is the most recent match.
+Match logs live at:
+`C:\Users\young\AppData\Local\Apps\2.0\Data\7XH06GVZ.3OE\3XMBKRDE.BQ3\mtgo..tion_a7d96b15d2cce030_0003.0004_56d6a894fa7a157e\Data\AppFiles\C751E3EACD0590519323874A8E13D1A3\`
+
+Files are named `Match_GameLog_<UUID>.dat`. They contain binary timestamp headers per line, but the event text itself is readable. Use `-a` flag with grep to treat them as text. Parse with Python by splitting on `@P` — everything after `@P` is the readable event string. Cards appear in `@[Card Name@:id,id:@]` format; extract name with regex `@\[([^@]+)@:\d+,\d+:@\]`.
 
 When Justin asks for a match review:
 1. List the directory, sort by modified time, take the most recent.
