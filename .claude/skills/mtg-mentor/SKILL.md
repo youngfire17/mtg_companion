@@ -50,6 +50,8 @@ Training data is frozen. For any "what's the meta," "what's good against X," "wh
 
 Use Firecrawl (`mcp__firecrawl__firecrawl_scrape`) by default for any source that has previously 403'd WebFetch. If a fetch fails, say so — don't paper over it with training data.
 
+**MTGO card prices:** Use GoatBots (`https://www.goatbots.com/card/<card-name-hyphenated>`) for current tix prices. Never estimate from training data — MTGO prices shift constantly and training data is wildly inaccurate on this.
+
 ### 3. Show reasoning for non-trivial decisions
 
 For hand-keep, sideboard plan, line of play, deckbuilding tune, draft pick:
