@@ -1,8 +1,10 @@
 import pytest
+import time
 from simulator.core.deck import Deck
 from simulator.simulation.game import Game
 from simulator.policies.goldfish import GoldfishPolicy
 from simulator.policies.heuristic.madness_burn import MadnessBurnHeuristic
+from simulator.simulation.simulator import Simulator
 
 DECK_PATH = "decks/pauper-madness-burn.md"
 
@@ -37,3 +39,23 @@ def test_game_draws_opening_hand():
     deck.shuffle(seed=5)
     result = Game(deck).run(MadnessBurnHeuristic(), GoldfishPolicy())
     assert result.final_state.turn >= 1
+
+def test_simulator_runs_n_games():
+    sim = Simulator()
+    results = sim.run("decks/pauper-madness-burn.md", MadnessBurnHeuristic(), n_games=100, seed=42, save_report=False)
+    assert results.n_games == 100
+    assert results.wins + results.losses + results.timeouts == 100
+
+def test_simulator_speed():
+    sim = Simulator()
+    start = time.time()
+    results = sim.run("decks/pauper-madness-burn.md", MadnessBurnHeuristic(), n_games=1000, seed=0, save_report=False)
+    elapsed = time.time() - start
+    assert elapsed < 15.0, f"1000 games took {elapsed:.2f}s"
+    assert results.win_rate > 0.5
+
+def test_simulator_reproducible_with_seed():
+    sim = Simulator()
+    r1 = sim.run("decks/pauper-madness-burn.md", MadnessBurnHeuristic(), n_games=50, seed=99, save_report=False)
+    r2 = sim.run("decks/pauper-madness-burn.md", MadnessBurnHeuristic(), n_games=50, seed=99, save_report=False)
+    assert r1.wins == r2.wins
