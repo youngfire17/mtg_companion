@@ -28,3 +28,49 @@ def test_policy_value_is_zero():
     policy = GoldfishPolicy()
     gs = GameState()
     assert policy.value(gs) == 0.0
+
+from simulator.policies.heuristic.madness_burn import MadnessBurnHeuristic
+from simulator.core.game_state import GameState, CardState, Phase
+from simulator.core.card import load_card
+from simulator.core.actions import CastSpell, PlayLand, PassPriority, AlternateCost
+from simulator.core.rules import legal_actions
+
+def _main1_state(*hand_names: str, lands: int = 2) -> GameState:
+    gs = GameState()
+    gs.phase = Phase.MAIN1
+    gs.hand = [load_card(n) for n in hand_names]
+    for _ in range(lands):
+        gs.battlefield.append(CardState(card=load_card("Mountain")))
+    return gs
+
+def test_heuristic_plays_kessig_before_bolt():
+    gs = _main1_state("Kessig Flamebreather", "Lightning Bolt", lands=2)
+    policy = MadnessBurnHeuristic()
+    actions = legal_actions(gs)
+    chosen = policy.act(gs, actions)
+    assert isinstance(chosen, CastSpell)
+    assert chosen.card.name == "Kessig Flamebreather"
+
+def test_heuristic_plays_land_when_available():
+    gs = _main1_state("Mountain", "Lightning Bolt", lands=0)
+    policy = MadnessBurnHeuristic()
+    actions = legal_actions(gs)
+    chosen = policy.act(gs, actions)
+    assert isinstance(chosen, PlayLand)
+
+def test_heuristic_fireblasts_at_4_life():
+    gs = _main1_state("Fireblast", lands=3)
+    gs.opponent_life = 4
+    policy = MadnessBurnHeuristic()
+    actions = legal_actions(gs)
+    chosen = policy.act(gs, actions)
+    assert isinstance(chosen, AlternateCost)
+    assert chosen.card.name == "Fireblast"
+
+def test_heuristic_does_not_fireblast_when_not_lethal():
+    gs = _main1_state("Fireblast", lands=3)
+    gs.opponent_life = 10
+    policy = MadnessBurnHeuristic()
+    actions = legal_actions(gs)
+    chosen = policy.act(gs, actions)
+    assert not (isinstance(chosen, AlternateCost) and chosen.card.name == "Fireblast")
