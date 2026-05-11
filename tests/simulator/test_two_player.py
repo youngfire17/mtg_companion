@@ -1,8 +1,12 @@
 import pytest
-from simulator.core.actions import DeclareBlockers, CastSpell
+from simulator.core.actions import DeclareBlockers, CastSpell, PlayLand, CastMadness, AlternateCost, PassPriority
 from simulator.core.card import load_card
 from simulator.core.two_player_state import PlayerState, TwoPlayerGameState
 from simulator.core.game_state import CardState, Phase
+from simulator.core.two_player_rules import (
+    legal_main_actions, legal_instant_actions,
+    apply_two_player, draw_card_two_player,
+)
 
 
 def _player(life: int = 20, hand_names: list[str] = None, lands: int = 3) -> PlayerState:
@@ -78,3 +82,111 @@ def test_cast_spell_target_player_defaults_to_one():
     bolt = load_card("Lightning Bolt")
     action = CastSpell(card=bolt, cost={"R": 1}, targets=["face"])
     assert action.target_player == 1
+
+
+# ---------------------------------------------------------------------------
+# Task 2: Two-player rules engine tests
+# ---------------------------------------------------------------------------
+
+def test_legal_main_actions_includes_pass():
+    state = _state()
+    actions = legal_main_actions(state, 0)
+    assert any(isinstance(a, PassPriority) for a in actions)
+
+
+def test_legal_main_can_play_land():
+    state = _state()
+    state.players[0].hand = [load_card("Mountain")]
+    state.players[0].battlefield = []
+    actions = legal_main_actions(state, 0)
+    assert any(isinstance(a, PlayLand) for a in actions)
+
+
+def test_legal_main_can_cast_bolt_with_mana():
+    state = _state()
+    state.players[0].hand = [load_card("Lightning Bolt")]
+    state.players[0].battlefield = [CardState(card=load_card("Mountain"))]
+    actions = legal_main_actions(state, 0)
+    bolt_actions = [a for a in actions if isinstance(a, CastSpell) and a.card.name == "Lightning Bolt"]
+    assert len(bolt_actions) >= 1
+    assert all(a.target_player == 1 for a in bolt_actions)
+
+
+def test_legal_main_bolt_can_target_opponent_creature():
+    state = _state()
+    state.players[0].hand = [load_card("Lightning Bolt")]
+    state.players[0].battlefield = [CardState(card=load_card("Mountain"))]
+    state.players[1].battlefield = [CardState(card=load_card("Kessig Flamebreather"))]
+    actions = legal_main_actions(state, 0)
+    bolt_actions = [a for a in actions if isinstance(a, CastSpell) and a.card.name == "Lightning Bolt"]
+    assert len(bolt_actions) == 2
+    creature_targets = [a for a in bolt_actions if a.target_card is not None]
+    assert len(creature_targets) == 1
+    assert creature_targets[0].target_card.name == "Kessig Flamebreather"
+
+
+def test_legal_instant_filters_sorceries():
+    state = _state()
+    state.players[0].hand = [load_card("Faithless Looting"), load_card("Lightning Bolt")]
+    state.players[0].battlefield = [CardState(card=load_card("Mountain"))]
+    instant_actions = legal_instant_actions(state, 0)
+    fl_actions = [a for a in instant_actions if isinstance(a, CastSpell) and a.card.name == "Faithless Looting"]
+    assert len(fl_actions) == 0
+    bolt_actions = [a for a in instant_actions if isinstance(a, CastSpell) and a.card.name == "Lightning Bolt"]
+    assert len(bolt_actions) >= 1
+
+
+def test_apply_bolt_to_opponent_face():
+    state = _state(life_b=20)
+    state.players[0].battlefield = [CardState(card=load_card("Mountain"))]
+    state.players[0].hand = [load_card("Lightning Bolt")]
+    bolt = load_card("Lightning Bolt")
+    action = CastSpell(card=bolt, cost={"R": 1}, targets=["face"], target_player=1)
+    new_state = apply_two_player(state, action, acting_player=0)
+    assert new_state.players[1].life == 17
+
+
+def test_apply_bolt_to_opponent_creature():
+    state = _state()
+    state.players[0].battlefield = [CardState(card=load_card("Mountain"))]
+    state.players[0].hand = [load_card("Lightning Bolt")]
+    kessig = load_card("Kessig Flamebreather")
+    state.players[1].battlefield = [CardState(card=kessig)]
+    bolt = load_card("Lightning Bolt")
+    action = CastSpell(card=bolt, cost={"R": 1}, targets=["creature"], target_player=1, target_card=kessig)
+    new_state = apply_two_player(state, action, acting_player=0)
+    assert not new_state.players[1].has_creature("Kessig Flamebreather")
+    assert any(c.name == "Kessig Flamebreather" for c in new_state.players[1].graveyard)
+
+
+def test_apply_kessig_pings_opponent_on_noncreature():
+    state = _state()
+    state.players[0].battlefield = [
+        CardState(card=load_card("Mountain")),
+        CardState(card=load_card("Kessig Flamebreather")),
+    ]
+    state.players[0].hand = [load_card("Lightning Bolt")]
+    bolt = load_card("Lightning Bolt")
+    action = CastSpell(card=bolt, cost={"R": 1}, targets=["face"], target_player=1)
+    new_state = apply_two_player(state, action, acting_player=0)
+    assert new_state.players[1].life == 16
+
+
+def test_draw_card_two_player():
+    state = _state()
+    state.players[0].library = [load_card("Lightning Bolt"), load_card("Mountain")]
+    new_state = draw_card_two_player(state, 0)
+    assert len(new_state.players[0].hand) == 1
+    assert new_state.players[0].hand[0].name == "Lightning Bolt"
+    assert new_state.players[0].cards_drawn_this_turn == 1
+
+
+def test_game_over_when_opponent_reaches_zero():
+    state = _state(life_b=3)
+    state.players[0].battlefield = [CardState(card=load_card("Mountain"))]
+    state.players[0].hand = [load_card("Lightning Bolt")]
+    bolt = load_card("Lightning Bolt")
+    action = CastSpell(card=bolt, cost={"R": 1}, targets=["face"], target_player=1)
+    new_state = apply_two_player(state, action, acting_player=0)
+    assert new_state.game_over is True
+    assert new_state.winner == 0
