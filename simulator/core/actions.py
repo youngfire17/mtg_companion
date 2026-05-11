@@ -13,6 +13,8 @@ class CastSpell:
     cost: dict
     targets: list = field(default_factory=list)
     discard_card: Card | None = None
+    target_player: int = 1          # which player is targeted (1=opponent, default)
+    target_card: Card | None = None  # specific creature targeted (None=face)
 
 @dataclass(frozen=True)
 class CastMadness:
@@ -41,8 +43,12 @@ class DeclareAttackers:
     creatures: list = field(default_factory=list)
 
 @dataclass(frozen=True)
+class DeclareBlockers:
+    assignments: dict  # blocker Card → attacker Card
+
+@dataclass(frozen=True)
 class PassPriority:
     pass
 
 Action = (PlayLand | CastSpell | CastMadness | FlashbackSpell |
-          AlternateCost | ActivateAbility | DeclareAttackers | PassPriority)
+          AlternateCost | ActivateAbility | DeclareAttackers | DeclareBlockers | PassPriority)
