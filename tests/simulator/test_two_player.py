@@ -6,6 +6,7 @@ from simulator.core.game_state import CardState, Phase
 from simulator.core.two_player_rules import (
     legal_main_actions, legal_instant_actions,
     apply_two_player, draw_card_two_player,
+    resolve_combat_damage,
 )
 
 
@@ -190,3 +191,56 @@ def test_game_over_when_opponent_reaches_zero():
     new_state = apply_two_player(state, action, acting_player=0)
     assert new_state.game_over is True
     assert new_state.winner == 0
+
+
+# ---------------------------------------------------------------------------
+# Task 3: Integration tests for combat sequences
+# ---------------------------------------------------------------------------
+
+def test_full_attack_sequence():
+    """Unblocked Kessig (1/3) attacks and deals 1 damage to opponent's life."""
+    state = _state(life_a=20, life_b=20)
+    kessig = load_card("Kessig Flamebreather")
+    state.players[0].battlefield = [CardState(card=kessig)]
+    state.declared_attackers = [kessig]
+    state.declared_blocks = {}
+
+    new_state = resolve_combat_damage(state)
+    assert new_state.players[1].life == 19
+    assert new_state.game_over is False
+
+
+def test_blocking_kills_attacker():
+    """Snacker (2/1) blocked by Kessig (1/3): Snacker dies, Kessig survives."""
+    state = _state(life_a=20, life_b=20)
+    kessig = load_card("Kessig Flamebreather")   # 1/3
+    snacker = load_card("Sneaky Snacker")          # 2/1
+    state.players[0].battlefield = [CardState(card=snacker)]
+    state.declared_attackers = [snacker]
+    state.players[1].battlefield = [CardState(card=kessig)]
+    state.declared_blocks = {kessig: snacker}
+
+    new_state = resolve_combat_damage(state)
+    # Snacker (2/1) takes 1 damage from Kessig → dies (1 >= 1 toughness)
+    assert not new_state.players[0].has_creature("Sneaky Snacker")
+    # Kessig (1/3) takes 2 damage from Snacker → survives (2 < 3 toughness)
+    assert new_state.players[1].has_creature("Kessig Flamebreather")
+    assert new_state.players[1].life == 20  # no unblocked damage
+
+
+def test_snacker_survives_blocking_epicure():
+    """Sneaky Snacker (2/1) blocks Voldaren Epicure (1/1): Snacker survives, Epicure dies."""
+    state = _state(life_a=20, life_b=20)
+    epicure = load_card("Voldaren Epicure")   # 1/1
+    snacker = load_card("Sneaky Snacker")     # 2/1
+    state.players[0].battlefield = [CardState(card=epicure)]
+    state.declared_attackers = [epicure]
+    state.players[1].battlefield = [CardState(card=snacker)]
+    state.declared_blocks = {snacker: epicure}
+
+    new_state = resolve_combat_damage(state)
+    # Epicure (1/1) takes 2 damage from Snacker → dies
+    assert not new_state.players[0].has_creature("Voldaren Epicure")
+    # Snacker (2/1) takes 1 damage from Epicure → both die (1 >= 1 toughness)
+    assert not new_state.players[1].has_creature("Sneaky Snacker")
+    assert new_state.players[1].life == 20
