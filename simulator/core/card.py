@@ -6,7 +6,7 @@ from functools import lru_cache
 
 ORACLE_PATH = Path(__file__).parents[2] / "library" / "cards" / "oracle.ndjson"
 
-CARD_OVERRIDES: dict[str, dict] = {
+CARD_OVERRIDES: dict[str, dict[str, bool | int | str]] = {
     "Faithless Looting": {
         "has_flashback": True, "flashback_cost": "{2}{R}",
         "draw_on_cast": 2, "discard_on_cast": 2,
@@ -122,7 +122,7 @@ def load_card(name: str) -> Card:
 
     type_line = raw.get("type_line", "")
 
-    def safe_int(v) -> int:
+    def safe_int(v: str | int | None) -> int:  # non-integer P/T (e.g. "*") returns 0
         try:
             return int(v)
         except (ValueError, TypeError):
