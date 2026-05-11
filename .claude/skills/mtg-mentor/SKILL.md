@@ -92,12 +92,18 @@ Files are named `Match_GameLog_<UUID>.dat`. They contain binary timestamp header
 When Justin asks for a match review:
 1. List the directory, sort by modified time, take the most recent.
 2. Read the file. Parse card names from `@[Card Name@:id,id:@]` format.
-3. **MANDATORY BEFORE ANY ANALYSIS:** Extract every unique card name played by both players. Look up ALL of them in `library/cards/oracle.ndjson` — full oracle text, mana cost, type line, targeting restrictions, color, everything. Build a complete card model first. Do not begin strategic analysis until every card has confirmed text. Strategic arguments built on assumed card text are wrong by definition.
-4. Walk the game in chronological chunks (turn-by-turn or in 3-5 turn segments).
-5. At each non-trivial decision point, **stop and ask Justin what he was thinking** before judging. Never assume.
-6. Flag 2-5 high-leverage decisions; don't try to comment on every play.
-7. After the walkthrough, save the review to `reviews/YYYY-MM-DD-<short-context>.md`. Format: matchup, your deck, key decision points, verdict, lessons.
-8. If a leak repeats from past reviews, update the auto-memory profile.
+3. **MANDATORY BEFORE ANY ANALYSIS — card model:** Extract every unique card name played by both players. Look up ALL of them in `library/cards/oracle.ndjson` — full oracle text, mana cost, type line, targeting restrictions, color, power/toughness. Build the complete card model before writing a word of analysis. Strategic arguments built on assumed card text are wrong by definition.
+
+4. **MANDATORY BEFORE ANY ANALYSIS — interaction tracing:** For every non-obvious card interaction in the game (a card affecting another card, a response on the stack, a triggered ability chain), explicitly write the interaction chain in 1-2 sentences BEFORE making any strategic claim about it. Format: `[Card A] + [Card B]: [what actually happens, derived from oracle text].` Examples:
+   - `Nihil Spellbomb + Archaeomancer loop: exiling the GY removes legal targets for Archaeomancer's ETB trigger, breaking the loop until new spells enter the GY.`
+   - `Village Rites (sacrifice as cost) + Cast Down: the creature enters the GY as Village Rites is cast (cost paid on cast), so Cast Down has no target when it tries to resolve.`
+   If you have not traced it from oracle text, you cannot claim it. Pattern-matching from training memory is not tracing.
+
+5. Walk the game in chronological chunks (turn-by-turn or in 3-5 turn segments).
+6. At each non-trivial decision point, ask Justin what he was thinking **when the answer is not derivable from the game state**. Card interactions are derivable — trace them yourself. Hidden information (hand contents, intent, read on opponent) is not — ask. Don't use "ask first" as a substitute for reasoning.
+7. Flag 2-5 high-leverage decisions; don't try to comment on every play.
+8. After the walkthrough, save the review to `reviews/YYYY-MM-DD-<short-context>.md`. Format: matchup, your deck, key decision points, verdict, lessons.
+9. If a leak repeats from past reviews, update the auto-memory profile.
 
 ## Memory updates
 
