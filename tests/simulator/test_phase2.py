@@ -94,3 +94,44 @@ def test_load_win_rates_from_logs():
     assert len(win_rates) > 0
     for deck, rate in win_rates.items():
         assert 0.0 <= rate <= 1.0, f"{deck}: {rate} out of range"
+
+
+def test_acceptance_deck_compare_fireblast():
+    """Full compare_decks pipeline — same deck validates the interface."""
+    results = compare_decks(
+        deck_path_a=DECK_PATH,
+        label_a="3x Fireblast (current)",
+        deck_path_b=DECK_PATH,
+        label_b="4x Fireblast (hypothetical)",
+        policy=MadnessBurnHeuristic(),
+        n_games=500,
+        seed=42,
+    )
+    output = results.format()
+    assert "3x Fireblast" in output
+    assert "4x Fireblast" in output
+    assert "Recommendation:" in output
+    assert "P-value:" in output
+    # Same deck should not be statistically different
+    assert not results.significant or results.p_value > 0.01
+
+
+def test_acceptance_meta_ev_with_log_data():
+    """Full meta EV pipeline using real log data."""
+    win_rates = load_win_rates_from_logs(min_matches=2)
+    assert len(win_rates) >= 2
+
+    meta_shares = {
+        "Mirror (Madness)": 0.107,
+        "Blue Terror": 0.097,
+        "Elves": 0.069,
+        "Grixis Affinity": 0.065,
+        "Mono Red Rally": 0.043,
+        "Tron": 0.042,
+        "Golgari Gardens": 0.034,
+    }
+
+    results = calculate_meta_ev(win_rates, meta_shares)
+    output = results.format()
+    assert "EV" in output
+    assert len(output) > 100
