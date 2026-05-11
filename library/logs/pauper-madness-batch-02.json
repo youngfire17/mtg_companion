@@ -1,0 +1,1418 @@
+{
+  "matches": [
+    {
+      "file": "Match_GameLog_04b07ee6-647d-4a67-8d0e-af3c1993b890.dat",
+      "date": "2024-06-21",
+      "opponent": "grandmarquis",
+      "result": "L",
+      "games": 3,
+      "turns_total": 31,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Sneaky Snacker",
+        "Vampire's Kiss"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_09a073a8-b90e-4551-b4ca-ad21bb531ecc.dat",
+      "date": "2025-04-15",
+      "opponent": "xBR3N7x",
+      "result": "W",
+      "games": 2,
+      "turns_total": 17,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Cutthroat Contender",
+        "Rotten Reunion",
+        "Zombie Token"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_0b5ab6c2-2edb-4e58-a7ce-47724f486586.dat",
+      "date": "2024-07-03",
+      "opponent": "TheJunkDog",
+      "result": "L",
+      "games": 3,
+      "turns_total": 46,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Kitchen Imp",
+        "Sneaky Snacker",
+        "Great Furnace"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_0cde0f16-9c34-4ab7-b858-0858a51ef983.dat",
+      "date": "2024-06-22",
+      "opponent": "bobmart32",
+      "result": "W",
+      "games": 1,
+      "turns_total": 8,
+      "opponent_deck": "Unknown (Jagged Barrens, Vampire's Kiss)",
+      "opponent_key_cards": [
+        "Jagged Barrens",
+        "Vampire's Kiss",
+        "Goblin Tomb Raider"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_0ece2f4b-f97f-4a24-a9ce-e0036c7aeec7.dat",
+      "date": "2024-06-25",
+      "opponent": "Daikal21",
+      "result": "L",
+      "games": 3,
+      "turns_total": 32,
+      "opponent_deck": "Unknown (Squadron Hawk, Battle Screech)",
+      "opponent_key_cards": [
+        "Squadron Hawk",
+        "Battle Screech",
+        "Lunarch Veteran"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_15bedaf7-54a1-4b84-9731-2f050b779c18.dat",
+      "date": "2024-06-21",
+      "opponent": "roxymtg",
+      "result": "W",
+      "games": 2,
+      "turns_total": 20,
+      "opponent_deck": "Mono Black Control",
+      "opponent_key_cards": [
+        "Khalni Garden",
+        "Deadly Dispute",
+        "Defile"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_230435b2-b00e-4f75-81c4-5c1712824414.dat",
+      "date": "2025-04-15",
+      "opponent": "idnmv",
+      "result": "W",
+      "games": 3,
+      "turns_total": 31,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Sneaky Snacker",
+        "Voldaren Epicure",
+        "Cathartic Reunion"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_2714d86e-8168-4259-b426-59091723bd38.dat",
+      "date": "2025-11-25",
+      "opponent": "Seether7",
+      "result": "L",
+      "games": 2,
+      "turns_total": 16,
+      "opponent_deck": "Unknown (Voldaren Epicure, Vampire's Kiss)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Vampire's Kiss",
+        "Sneaky Snacker"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_27cbd486-f58a-43e2-aced-1bcf7071143f.dat",
+      "date": "2025-04-19",
+      "opponent": "Korox87",
+      "result": "W",
+      "games": 2,
+      "turns_total": 26,
+      "opponent_deck": "Tron",
+      "opponent_key_cards": [
+        "Ichor Wellspring",
+        "Golem Foundry",
+        "Pactdoll Terror"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_29d33f35-1417-48c7-9661-1197e66736f1.dat",
+      "date": "2025-04-10",
+      "opponent": "Pedroh",
+      "result": "L",
+      "games": 2,
+      "turns_total": 22,
+      "opponent_deck": "Mono Red Burn",
+      "opponent_key_cards": [
+        "Firebrand Archer",
+        "Voldaren Epicure",
+        "Great Furnace"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_2e6d6d1c-7f98-47ff-acaa-f9299e906779.dat",
+      "date": "2024-06-24",
+      "opponent": "Skettino",
+      "result": "W",
+      "games": 1,
+      "turns_total": 5,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Great Furnace",
+        "Jagged Barrens",
+        "Lightning Bolt"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_31369e00-c92f-40bc-99c8-54337ae6afc3.dat",
+      "date": "2024-06-23",
+      "opponent": "Punkzombi",
+      "result": "W",
+      "games": 2,
+      "turns_total": 23,
+      "opponent_deck": "Mono Black Control",
+      "opponent_key_cards": [
+        "Kor Skyfisher",
+        "Refurbished Familiar",
+        "Omen of the Dead"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_3141d229-2739-41ed-9c95-80eafb72ce3a.dat",
+      "date": "2024-07-04",
+      "opponent": "HobbyHorstorian",
+      "result": "W",
+      "games": 2,
+      "turns_total": 23,
+      "opponent_deck": "Unknown (The Modern Age, L rien Revealed)",
+      "opponent_key_cards": [
+        "The Modern Age",
+        "L rien Revealed",
+        "Tolarian Terror"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_31dd0001-bb32-4c64-a02d-aaab56cb3d5a.dat",
+      "date": "2024-06-27",
+      "opponent": "Fox_Girl_Navi",
+      "result": "W",
+      "games": 3,
+      "turns_total": 38,
+      "opponent_deck": "Affinity",
+      "opponent_key_cards": [
+        "Refurbished Familiar",
+        "Deadly Dispute",
+        "Blood Fountain"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_328e3c09-ae04-4d20-9dc5-4430f57c56a4.dat",
+      "date": "2024-07-03",
+      "opponent": "Stella_R",
+      "result": "L",
+      "games": 2,
+      "turns_total": 31,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Jagged Barrens",
+        "Kitchen Imp",
+        "Voldaren Epicure"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_363658bc-0db6-48c5-b11b-d761dfb14386.dat",
+      "date": "2024-09-30",
+      "opponent": "Telmonista",
+      "result": "L",
+      "games": 3,
+      "turns_total": 32,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Goblin Token",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_36956523-931e-435e-a930-e4d4d390b427.dat",
+      "date": "2024-10-04",
+      "opponent": "brckak",
+      "result": "W",
+      "games": 2,
+      "turns_total": 28,
+      "opponent_deck": "Tron",
+      "opponent_key_cards": [
+        "Candy Trail",
+        "Chromatic Star",
+        "Expedition Map"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_38f2ed04-09dc-4219-9d90-5a6c661a2cda.dat",
+      "date": "2025-04-13",
+      "opponent": "MOR44",
+      "result": "W",
+      "games": 2,
+      "turns_total": 23,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Kitchen Imp",
+        "Jagged Barrens",
+        "Grab the Prize"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_393533ec-e44e-4c3e-b732-8536acd16b7e.dat",
+      "date": "2024-10-06",
+      "opponent": "nildo",
+      "result": "L",
+      "games": 3,
+      "turns_total": 37,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Blood Token",
+        "Goblin Tomb Raider",
+        "Vampire's Kiss"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_3b84ac46-df8d-4a4c-a6db-652e1c238f29.dat",
+      "date": "2025-04-12",
+      "opponent": "PeperoniMtg",
+      "result": "L",
+      "games": 3,
+      "turns_total": 41,
+      "opponent_deck": "Mono Red Burn",
+      "opponent_key_cards": [
+        "Experimental Synthesizer",
+        "Voldaren Epicure",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_43e68851-047f-4b96-8622-6c399d184bf0.dat",
+      "date": "2024-06-25",
+      "opponent": "CitizenDawnX",
+      "result": "W",
+      "games": 3,
+      "turns_total": 40,
+      "opponent_deck": "Mono Black Control",
+      "opponent_key_cards": [
+        "Gray Merchant of Asphodel",
+        "Kitchen Imp",
+        "Witch's Cottage"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_489ca9eb-dd45-4d3c-a5ba-ee35afc6f31a.dat",
+      "date": "2024-06-28",
+      "opponent": "LikeAFerro",
+      "result": "L",
+      "games": 3,
+      "turns_total": 40,
+      "opponent_deck": "Unknown (Writhing Chrysalis, Utopia Sprawl)",
+      "opponent_key_cards": [
+        "Writhing Chrysalis",
+        "Utopia Sprawl",
+        "Annoyed Altisaur"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_4931be03-5854-4726-bef9-fc61691cc58c.dat",
+      "date": "2025-04-20",
+      "opponent": "brummett",
+      "result": "W",
+      "games": 2,
+      "turns_total": 30,
+      "opponent_deck": "Tron",
+      "opponent_key_cards": [
+        "Mulldrifter",
+        "Prophetic Prism",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_4945d84d-8a37-42d6-92d7-d431b2ad5ba2.dat",
+      "date": "2025-04-19",
+      "opponent": "Brivenix",
+      "result": "W",
+      "games": 2,
+      "turns_total": 28,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Ninja of the Deep Hours",
+        "Augur of Bolas",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_49832b5f-5dc5-4137-a75e-93e7214d7b5a.dat",
+      "date": "2025-04-22",
+      "opponent": "Highlander90",
+      "result": "W",
+      "games": 2,
+      "turns_total": 24,
+      "opponent_deck": "Unknown (Kitchen Imp, Opt)",
+      "opponent_key_cards": [
+        "Kitchen Imp",
+        "Opt",
+        "Thought Scour"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_4a547184-fab7-4ed3-99e9-9ba87c2d62e2.dat",
+      "date": "2024-06-25",
+      "opponent": "vini_torres",
+      "result": "W",
+      "games": 2,
+      "turns_total": 34,
+      "opponent_deck": "Kuldotha/Goblin Red",
+      "opponent_key_cards": [
+        "Kitchen Imp",
+        "Voldaren Epicure",
+        "Experimental Synthesizer"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_51cd5977-63d8-4b07-816c-3d5d39b49d15.dat",
+      "date": "2025-04-28",
+      "opponent": "Slawio",
+      "result": "L",
+      "games": 2,
+      "turns_total": 31,
+      "opponent_deck": "Tron",
+      "opponent_key_cards": [
+        "Mulldrifter",
+        "Prophetic Prism",
+        "Urza's Tower"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_52f1279d-045e-489e-9181-160bf2c2aace.dat",
+      "date": "2025-11-15",
+      "opponent": "madgicneurone14",
+      "result": "L",
+      "games": 2,
+      "turns_total": 19,
+      "opponent_deck": "Bogles",
+      "opponent_key_cards": [
+        "Abundant Growth",
+        "Setessan Training",
+        "Silhana Ledgewalker"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_54a94a37-bf25-4230-9546-d5c1edf14e6e.dat",
+      "date": "2025-05-02",
+      "opponent": "in55lackey",
+      "result": "W",
+      "games": 2,
+      "turns_total": 17,
+      "opponent_deck": "Kuldotha/Goblin Red",
+      "opponent_key_cards": [
+        "Burning-Tree Emissary",
+        "Human Soldier Token",
+        "Blood Token"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_5684f1ed-5f84-4247-ad56-f1dde4dc8ec4.dat",
+      "date": "2024-07-01",
+      "opponent": "Alakhai",
+      "result": "L",
+      "games": 3,
+      "turns_total": 36,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Kitchen Imp",
+        "Undercity"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_5f007a46-c66a-4a74-958b-3b9881836689.dat",
+      "date": "2025-04-09",
+      "opponent": "alex1231neise",
+      "result": "?",
+      "games": 2,
+      "turns_total": 39,
+      "opponent_deck": "Unknown (Ichor Wellspring, Pactdoll Terror)",
+      "opponent_key_cards": [
+        "Ichor Wellspring",
+        "Pactdoll Terror",
+        "Candy Trail"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_5f541627-839d-4755-a47f-4dd967502fd9.dat",
+      "date": "2024-06-25",
+      "opponent": "DobleP",
+      "result": "L",
+      "games": 2,
+      "turns_total": 38,
+      "opponent_deck": "Eldrazi Green",
+      "opponent_key_cards": [
+        "Writhing Chrysalis",
+        "Eldrazi Repurposer",
+        "Generous Ent"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_61dd3763-101d-4594-a598-50a34409a0e5.dat",
+      "date": "2024-07-12",
+      "opponent": "_sunga_",
+      "result": "L",
+      "games": 2,
+      "turns_total": 33,
+      "opponent_deck": "Unknown (Delver of Secrets, L rien Revealed)",
+      "opponent_key_cards": [
+        "Delver of Secrets",
+        "L rien Revealed",
+        "Boomerang"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_6725702b-9e12-4d7e-9645-89646380590a.dat",
+      "date": "2024-06-25",
+      "opponent": "gahxd",
+      "result": "W",
+      "games": 3,
+      "turns_total": 30,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Thought Scour",
+        "Mental Note",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_698ce2f9-341b-4d4a-96ae-dda06bfb3ccf.dat",
+      "date": "2025-04-20",
+      "opponent": "M1D0R1",
+      "result": "L",
+      "games": 2,
+      "turns_total": 22,
+      "opponent_deck": "Unknown (Kitchen Imp, Blood Token)",
+      "opponent_key_cards": [
+        "Kitchen Imp",
+        "Blood Token",
+        "Voldaren Epicure"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_76648b57-4070-442b-acac-b7e5f0c0931f.dat",
+      "date": "2023-10-10",
+      "opponent": "Bong0411",
+      "result": "W",
+      "games": 3,
+      "turns_total": 37,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Kitchen Imp",
+        "Scrapwork Mutt",
+        "Insectile Aberration"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_7724027b-7841-4137-9ff9-ba4cc5432dd2.dat",
+      "date": "2024-06-29",
+      "opponent": "Idionym",
+      "result": "L",
+      "games": 2,
+      "turns_total": 25,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Kitchen Imp",
+        "Vampire's Kiss",
+        "Rakdos Carnarium"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_78146129-fbc9-4fce-88c6-2f523108bc81.dat",
+      "date": "2025-11-14",
+      "opponent": "Catacuio",
+      "result": "L",
+      "games": 2,
+      "turns_total": 28,
+      "opponent_deck": "Orzhov/Boros Blink",
+      "opponent_key_cards": [
+        "Squadron Hawk",
+        "Mardu Devotee",
+        "Thraben Inspector"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_7aca31ac-20c0-4fb8-ad88-497ccc5bc8eb.dat",
+      "date": "2026-02-17",
+      "opponent": "MightyDestroyer",
+      "result": "L",
+      "games": 2,
+      "turns_total": 21,
+      "opponent_deck": "Kuldotha/Goblin Red",
+      "opponent_key_cards": [
+        "Burning-Tree Emissary",
+        "Experimental Synthesizer",
+        "Goblin Bushwhacker"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_80556ce6-577d-462d-8ed3-f814732dfe05.dat",
+      "date": "2025-04-20",
+      "opponent": "quake303",
+      "result": "L",
+      "games": 3,
+      "turns_total": 34,
+      "opponent_deck": "Unknown (Experimental Synthesizer, Voldaren Epicure)",
+      "opponent_key_cards": [
+        "Experimental Synthesizer",
+        "Voldaren Epicure",
+        "Snow-Covered Mountain"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_82ed2415-78af-4c43-bb66-7cfec022d3b6.dat",
+      "date": "2025-04-08",
+      "opponent": "PeperoniMtg",
+      "result": "L",
+      "games": 2,
+      "turns_total": 27,
+      "opponent_deck": "Unknown (Experimental Synthesizer, Great Furnace)",
+      "opponent_key_cards": [
+        "Experimental Synthesizer",
+        "Great Furnace",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_8455c3ec-d756-420f-b386-2ae212b6e428.dat",
+      "date": "2025-11-14",
+      "opponent": "RedTribute",
+      "result": "W",
+      "games": 1,
+      "turns_total": 14,
+      "opponent_deck": "Unknown (Cleansing Wildfire, Drossforge Bridge)",
+      "opponent_key_cards": [
+        "Cleansing Wildfire",
+        "Drossforge Bridge",
+        "Lightning Bolt"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_88282696-e45f-4a46-bc7e-82ba8e6a64eb.dat",
+      "date": "2025-04-19",
+      "opponent": "ilGonfio",
+      "result": "L",
+      "games": 3,
+      "turns_total": 53,
+      "opponent_deck": "Dimir Faeries/Terror",
+      "opponent_key_cards": [
+        "Spellstutter Sprite",
+        "Brainstorm",
+        "Sneaky Snacker"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_88a825c4-4116-4372-a62c-52ccada28239.dat",
+      "date": "2025-04-20",
+      "opponent": "Cryomanc3r",
+      "result": "L",
+      "games": 2,
+      "turns_total": 31,
+      "opponent_deck": "Unknown (Mortician Beetle, Gixian Infiltrator)",
+      "opponent_key_cards": [
+        "Mortician Beetle",
+        "Gixian Infiltrator",
+        "Infestation Sage"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_8c1bd13f-884f-4d78-bc50-af77e3daa889.dat",
+      "date": "2024-07-03",
+      "opponent": "PmOmena",
+      "result": "W",
+      "games": 2,
+      "turns_total": 24,
+      "opponent_deck": "Unknown (Thraben Inspector, Orzhov Basilica)",
+      "opponent_key_cards": [
+        "Thraben Inspector",
+        "Orzhov Basilica",
+        "Clue Token"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_8eb621b5-7ba3-48d0-980b-5582579aff1c.dat",
+      "date": "2023-09-16",
+      "opponent": "Jefftones",
+      "result": "W",
+      "games": 3,
+      "turns_total": 44,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Kitchen Imp",
+        "Tolarian Terror",
+        "Monastery Swiftspear"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_8f407c49-a923-42fd-b7ff-65168e8e932a.dat",
+      "date": "2024-06-25",
+      "opponent": "Skullpture",
+      "result": "W",
+      "games": 2,
+      "turns_total": 22,
+      "opponent_deck": "Unknown (Twisted Landscape, Ichor Wellspring)",
+      "opponent_key_cards": [
+        "Twisted Landscape",
+        "Ichor Wellspring",
+        "Lightning Bolt"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_90c8ca93-c7e7-4971-9c99-29b42e99ae7a.dat",
+      "date": "2025-04-28",
+      "opponent": "AzinKibas",
+      "result": "W",
+      "games": 2,
+      "turns_total": 39,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Blood Token",
+        "Sneaky Snacker"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_934d90a3-b954-47af-950e-1ad7407dc909.dat",
+      "date": "2024-07-02",
+      "opponent": "philovance88",
+      "result": "W",
+      "games": 2,
+      "turns_total": 32,
+      "opponent_deck": "Unknown (Tithing Blade, Lembas)",
+      "opponent_key_cards": [
+        "Tithing Blade",
+        "Lembas",
+        "Aviary Mechanic"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_944863e5-7d96-4b5d-8615-a1e32ef90f4c.dat",
+      "date": "2025-04-28",
+      "opponent": "Egbert",
+      "result": "W",
+      "games": 2,
+      "turns_total": 21,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Refurbished Familiar",
+        "Street Wraith",
+        "Blood Fountain"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_957f398d-1c28-474b-8d72-8431f5cab034.dat",
+      "date": "2025-04-20",
+      "opponent": "leoadc",
+      "result": "W",
+      "games": 2,
+      "turns_total": 18,
+      "opponent_deck": "Unknown (Pond Prophet, Glistener Seer)",
+      "opponent_key_cards": [
+        "Pond Prophet",
+        "Glistener Seer",
+        "Persistent Petitioners"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_9a70dfbb-5109-4b57-9a42-f3c4b4713679.dat",
+      "date": "2024-06-25",
+      "opponent": null,
+      "result": "L",
+      "games": 2,
+      "turns_total": 33,
+      "opponent_deck": "Unknown (Lunarch Veteran, Bird Token)",
+      "opponent_key_cards": [
+        "Lunarch Veteran",
+        "Bird Token",
+        "Squadron Hawk"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_9d2db83b-152c-4298-8f49-7fe210e74295.dat",
+      "date": "2025-04-15",
+      "opponent": "leoadc",
+      "result": "W",
+      "games": 2,
+      "turns_total": 23,
+      "opponent_deck": "Unknown (Lembas, Tithing Blade)",
+      "opponent_key_cards": [
+        "Lembas",
+        "Tithing Blade",
+        "Glint Hawk"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_a1c9b61a-9c4e-4bb7-8784-4ca8450d8fea.dat",
+      "date": "2025-04-28",
+      "opponent": "sammo1986",
+      "result": "L",
+      "games": 2,
+      "turns_total": 20,
+      "opponent_deck": "Unknown (Kiln Fiend, Festival Crasher)",
+      "opponent_key_cards": [
+        "Kiln Fiend",
+        "Festival Crasher",
+        "Lava Dart"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_a51c7d6c-be60-4fdb-a67d-eb0ca0037e3a.dat",
+      "date": "2024-03-11",
+      "opponent": "fringiegingie",
+      "result": "?",
+      "games": 2,
+      "turns_total": 30,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Blood Token",
+        "Kitchen Imp",
+        "Voldaren Epicure"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_a56e829b-4d4d-43e3-8748-180c28b9b097.dat",
+      "date": "2025-04-28",
+      "opponent": "WoolyBear",
+      "result": "L",
+      "games": 3,
+      "turns_total": 32,
+      "opponent_deck": "Unknown (Voldaren Epicure, Experimental Synthesizer)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Experimental Synthesizer",
+        "Jagged Barrens"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_ac66e42f-be8f-4f8f-af26-2b998459a56a.dat",
+      "date": "2024-07-15",
+      "opponent": "yoshimitsu1505",
+      "result": "L",
+      "games": 1,
+      "turns_total": 18,
+      "opponent_deck": "Unknown (Blood Token, Kitchen Imp)",
+      "opponent_key_cards": [
+        "Blood Token",
+        "Kitchen Imp",
+        "Vampire's Kiss"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_ae0ecf46-fbd1-446c-973f-f3a4ae4989a8.dat",
+      "date": "2025-04-24",
+      "opponent": "morpheus38",
+      "result": "W",
+      "games": 3,
+      "turns_total": 51,
+      "opponent_deck": "Unknown (Kitchen Imp, Dismal Backwater)",
+      "opponent_key_cards": [
+        "Kitchen Imp",
+        "Dismal Backwater",
+        "Cast Down"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_ae57318d-7ea4-4a37-ab90-bca6cf5200bb.dat",
+      "date": "2025-11-22",
+      "opponent": "Palolos",
+      "result": "W",
+      "games": 2,
+      "turns_total": 25,
+      "opponent_deck": "Unknown (Voldaren Epicure, Relic of Progenitus)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Relic of Progenitus",
+        "Lightning Bolt"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_b0bdfbab-421f-48a2-bda5-e811d48fe8e1.dat",
+      "date": "2026-02-16",
+      "opponent": "TheJunkDog",
+      "result": "W",
+      "games": 2,
+      "turns_total": 26,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Stinkweed Imp",
+        "Sneaky Snacker",
+        "Molten Gatekeeper"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_b550b44c-47c9-4a9f-a3b3-eb8fc33be6d0.dat",
+      "date": "2025-04-19",
+      "opponent": "rinazina",
+      "result": "L",
+      "games": 2,
+      "turns_total": 36,
+      "opponent_deck": "Orzhov/Boros Blink",
+      "opponent_key_cards": [
+        "Experimental Synthesizer",
+        "Kor Skyfisher",
+        "Relic of Progenitus"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_b9ec1bf6-567f-4461-b053-6696823271e9.dat",
+      "date": "2024-06-25",
+      "opponent": "ColbiasTicklebush",
+      "result": "L",
+      "games": 3,
+      "turns_total": 33,
+      "opponent_deck": "Inside Out Combo",
+      "opponent_key_cards": [
+        "Seeker of the Way",
+        "Tireless Tribe",
+        "Accumulated Knowledge"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_bafbfeae-c9bd-4cb6-8903-0e29b9999101.dat",
+      "date": "2024-07-05",
+      "opponent": "jvmazzetto",
+      "result": "W",
+      "games": 2,
+      "turns_total": 36,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Blood Token",
+        "Jagged Barrens"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_bda225ef-2b12-463b-96d7-031fb1953012.dat",
+      "date": "2024-06-26",
+      "opponent": "robsonlm88",
+      "result": "?",
+      "games": 1,
+      "turns_total": 10,
+      "opponent_deck": "Unknown (Basking Broodscale, Sadistic Glee)",
+      "opponent_key_cards": [
+        "Basking Broodscale",
+        "Sadistic Glee",
+        "Drossforge Bridge"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_be9d38ab-1e25-49c4-be11-b2e2de074ca4.dat",
+      "date": "2024-06-22",
+      "opponent": "aragonjohn7",
+      "result": "W",
+      "games": 3,
+      "turns_total": 41,
+      "opponent_deck": "Mono Black Control",
+      "opponent_key_cards": [
+        "Peat Bog",
+        "Jagged Barrens",
+        "Witch's Cottage"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_bf2ce22d-7e18-4df5-991b-bc4c4c78e121.dat",
+      "date": "2025-04-19",
+      "opponent": "LabroNico",
+      "result": "L",
+      "games": 2,
+      "turns_total": 20,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Scrapwork Mutt",
+        "Voldaren Epicure",
+        "Stinkweed Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_c022bc7e-72c8-466b-baf0-cc6579e24136.dat",
+      "date": "2025-11-15",
+      "opponent": "BenzaniBros",
+      "result": "W",
+      "games": 1,
+      "turns_total": 9,
+      "opponent_deck": "Tron",
+      "opponent_key_cards": [
+        "Prophetic Prism",
+        "Stonehorn Dignitary",
+        "Expedition Map"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_c3dc33e8-d96a-4a9e-90c4-953d2f794b96.dat",
+      "date": "2025-04-20",
+      "opponent": "Daniel_Alves_BR_RR",
+      "result": "W",
+      "games": 2,
+      "turns_total": 22,
+      "opponent_deck": "Unknown (Rakdos Carnarium, Forgotten Cave)",
+      "opponent_key_cards": [
+        "Rakdos Carnarium",
+        "Forgotten Cave",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_c6d8fcff-6545-4ba2-bb18-5f3a438a89ee.dat",
+      "date": "2025-04-19",
+      "opponent": "quake303",
+      "result": "W",
+      "games": 2,
+      "turns_total": 23,
+      "opponent_deck": "Unknown (Clockwork Percussionist, Kitchen Imp)",
+      "opponent_key_cards": [
+        "Clockwork Percussionist",
+        "Kitchen Imp",
+        "Lava Dart"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_cf21e2f0-48d4-4c4e-953f-50fbae0b925f.dat",
+      "date": "2025-11-14",
+      "opponent": "Fiafia",
+      "result": "L",
+      "games": 1,
+      "turns_total": 25,
+      "opponent_deck": "Unknown (Aven Riftwatcher, Angelic Renewal)",
+      "opponent_key_cards": [
+        "Aven Riftwatcher",
+        "Angelic Renewal",
+        "Kabira Crossroads"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_d1397d9d-34e8-4f23-af26-f03c2b90b6db.dat",
+      "date": "2025-04-22",
+      "opponent": "crupdog",
+      "result": "W",
+      "games": 2,
+      "turns_total": 24,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Epicure of Blood",
+        "Chromatic Star",
+        "Street Wraith"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_d7caf21a-ba5b-440d-95e2-aa2a7042d2a3.dat",
+      "date": "2024-07-05",
+      "opponent": "LALF",
+      "result": "W",
+      "games": 3,
+      "turns_total": 38,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Jagged Barrens",
+        "Vampire's Kiss"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_dcac7ace-0572-409c-9cde-3919271f1084.dat",
+      "date": "2024-04-17",
+      "opponent": "DarKaps",
+      "result": "W",
+      "games": 2,
+      "turns_total": 34,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Augur of Bolas",
+        "Galvanic Blast",
+        "Blood Token"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_de3dbfa9-eea5-430d-9a9c-971135988f44.dat",
+      "date": "2024-07-04",
+      "opponent": "ColaKaKAO",
+      "result": "W",
+      "games": 2,
+      "turns_total": 28,
+      "opponent_deck": "Orzhov/Boros Blink",
+      "opponent_key_cards": [
+        "Novice Inspector",
+        "Idyllic Grange",
+        "Raffine's Informant"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_e2735f0e-13cb-48dd-a8b5-5d64a33c5994.dat",
+      "date": "2025-04-19",
+      "opponent": "Walker735",
+      "result": "L",
+      "games": 2,
+      "turns_total": 17,
+      "opponent_deck": "Unknown (Psychic Puppetry, Ideas Unbound)",
+      "opponent_key_cards": [
+        "Psychic Puppetry",
+        "Ideas Unbound",
+        "High Tide"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_e301ec7a-5add-4f54-8e74-d499a366d0d5.dat",
+      "date": "2024-07-07",
+      "opponent": "Raisakh",
+      "result": "W",
+      "games": 3,
+      "turns_total": 50,
+      "opponent_deck": "Eldrazi Green",
+      "opponent_key_cards": [
+        "Arbor Elf",
+        "Jagged Barrens",
+        "Malevolent Rumble"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_e5005b92-dc07-4f61-a0e0-2b17acd0ad22.dat",
+      "date": "2024-07-07",
+      "opponent": "Strykeer",
+      "result": "L",
+      "games": 2,
+      "turns_total": 24,
+      "opponent_deck": "Walls Combo",
+      "opponent_key_cards": [
+        "Quirion Ranger",
+        "Snow-Covered Forest",
+        "Axebane Guardian"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_e735e292-3d00-461a-83f0-0747d3458fb9.dat",
+      "date": "2024-06-21",
+      "opponent": "NotTheLawM4n",
+      "result": "W",
+      "games": 1,
+      "turns_total": 9,
+      "opponent_deck": "Unknown (Ichor Wellspring, Blood Fountain)",
+      "opponent_key_cards": [
+        "Ichor Wellspring",
+        "Blood Fountain",
+        "Myr Enforcer"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_e93d9a22-dffa-4b19-94ce-11d95edcd25b.dat",
+      "date": "2025-04-12",
+      "opponent": "fedecoda",
+      "result": "W",
+      "games": 2,
+      "turns_total": 25,
+      "opponent_deck": "Affinity",
+      "opponent_key_cards": [
+        "Steelfin Whale",
+        "Thoughtcast",
+        "Tooth of Chiss-Goria"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_ea3f6427-7651-4bd1-87d0-15a81368cd70.dat",
+      "date": "2025-04-15",
+      "opponent": "m4g4r1",
+      "result": "W",
+      "games": 2,
+      "turns_total": 20,
+      "opponent_deck": "Mirror (Madness)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Rakdos Carnarium",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_ea9e99ea-4f4f-477e-afeb-6e7c36654467.dat",
+      "date": "2024-07-07",
+      "opponent": "JenkinsPendragon",
+      "result": "L",
+      "games": 3,
+      "turns_total": 46,
+      "opponent_deck": "Unknown (Jagged Barrens, Delver of Secrets)",
+      "opponent_key_cards": [
+        "Jagged Barrens",
+        "Delver of Secrets",
+        "L rien Revealed"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_eb3ebeba-a7ff-4637-9461-7595d5a79d57.dat",
+      "date": "2024-07-05",
+      "opponent": "matuneo",
+      "result": "L",
+      "games": 3,
+      "turns_total": 44,
+      "opponent_deck": "Orzhov/Boros Blink",
+      "opponent_key_cards": [
+        "Thraben Inspector",
+        "Kor Skyfisher",
+        "Tithing Blade"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_eee69fc6-3d9b-4f82-8249-4f5865c9a167.dat",
+      "date": "2025-04-06",
+      "opponent": "Imposing_Proboscis",
+      "result": "L",
+      "games": 3,
+      "turns_total": 34,
+      "opponent_deck": "Unknown (Voldaren Epicure, Foundry Street Denizen)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Foundry Street Denizen",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_f26fc1fb-e9ca-4f95-8288-10ca6adaaf88.dat",
+      "date": "2025-04-16",
+      "opponent": "Faillace",
+      "result": "W",
+      "games": 1,
+      "turns_total": 16,
+      "opponent_deck": "Unknown (Sneaky Snacker, Skred)",
+      "opponent_key_cards": [
+        "Sneaky Snacker",
+        "Skred",
+        "Lightning Bolt"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_f5aa293c-6c4e-47ed-884a-2f76196c72c4.dat",
+      "date": "2025-11-07",
+      "opponent": "grandmarquis",
+      "result": "W",
+      "games": 1,
+      "turns_total": 10,
+      "opponent_deck": "Unknown (Voldaren Epicure, Lembas)",
+      "opponent_key_cards": [
+        "Voldaren Epicure",
+        "Lembas",
+        "Refurbished Familiar"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_f654191d-4e5d-439f-b9d8-69278fe7d236.dat",
+      "date": "2025-04-10",
+      "opponent": "kenedymt",
+      "result": "W",
+      "games": 3,
+      "turns_total": 35,
+      "opponent_deck": "Unknown (Blisterspit Gremlin, Bone Saw)",
+      "opponent_key_cards": [
+        "Blisterspit Gremlin",
+        "Bone Saw",
+        "Voldaren Epicure"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_f6a6abbd-2249-4b4b-8d10-54cda1cea703.dat",
+      "date": "2025-04-05",
+      "opponent": "Zyel",
+      "result": "W",
+      "games": 2,
+      "turns_total": 25,
+      "opponent_deck": "Unknown (Nested Shambler, Carrion Feeder)",
+      "opponent_key_cards": [
+        "Nested Shambler",
+        "Carrion Feeder",
+        "Shambling Ghast"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_f763610c-26af-4929-8adb-32567da9bf6d.dat",
+      "date": "2024-06-26",
+      "opponent": "danilovbd",
+      "result": "W",
+      "games": 2,
+      "turns_total": 22,
+      "opponent_deck": "Unknown (Khalni Garden, Kitchen Imp)",
+      "opponent_key_cards": [
+        "Khalni Garden",
+        "Kitchen Imp",
+        "Escape Tunnel"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_fac8e6d0-3460-48df-9735-1b30021d0f67.dat",
+      "date": "2024-10-04",
+      "opponent": "Dorn",
+      "result": "W",
+      "games": 2,
+      "turns_total": 25,
+      "opponent_deck": "Unknown (Derelict Attic, Paralyze)",
+      "opponent_key_cards": [
+        "Derelict Attic",
+        "Paralyze",
+        "Jagged Barrens"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_fb12c6e5-5de1-483e-81f1-5f775e49a2e7.dat",
+      "date": "2024-06-25",
+      "opponent": "Ed_Elric",
+      "result": "W",
+      "games": 2,
+      "turns_total": 15,
+      "opponent_deck": "Walls Combo",
+      "opponent_key_cards": [
+        "Drift of Phantasms",
+        "Winding Way",
+        "Kitchen Imp"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_fb560879-e330-496c-ab32-2012da468bf1.dat",
+      "date": "2024-06-30",
+      "opponent": "Leonardo1080",
+      "result": "W",
+      "games": 3,
+      "turns_total": 32,
+      "opponent_deck": "Walls Combo",
+      "opponent_key_cards": [
+        "Quirion Ranger",
+        "Snow-Covered Forest",
+        "Overgrown Battlement"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_fba4b40d-6e9f-47c7-b8cd-7f950b18c278.dat",
+      "date": "2025-04-06",
+      "opponent": "tcelferact",
+      "result": "W",
+      "games": 2,
+      "turns_total": 32,
+      "opponent_deck": "Affinity",
+      "opponent_key_cards": [
+        "Sneaky Snacker",
+        "Drossforge Bridge",
+        "Refurbished Familiar"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_fcf50b20-2033-4955-86f2-321f74ae9bf3.dat",
+      "date": "2025-04-20",
+      "opponent": "Regis_Hangar49",
+      "result": "L",
+      "games": 2,
+      "turns_total": 38,
+      "opponent_deck": "Unknown (Refurbished Familiar, Writhing Chrysalis)",
+      "opponent_key_cards": [
+        "Refurbished Familiar",
+        "Writhing Chrysalis",
+        "Nihil Spellbomb"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_ff65c519-009a-44d1-aa9d-1eeec3ecc234.dat",
+      "date": "2024-06-28",
+      "opponent": "leverage",
+      "result": "L",
+      "games": 3,
+      "turns_total": 34,
+      "opponent_deck": "Unknown (Writhing Chrysalis, Utopia Sprawl)",
+      "opponent_key_cards": [
+        "Writhing Chrysalis",
+        "Utopia Sprawl",
+        "Arbor Elf"
+      ],
+      "notes": null
+    }
+  ],
+  "parse_errors": [],
+  "generated": "2026-05-10T22:22:59.087211",
+  "total_matches": 94,
+  "player": "Youngfire17"
+}
