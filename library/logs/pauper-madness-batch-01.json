@@ -1,0 +1,313 @@
+{
+  "matches": [
+    {
+      "file": "Match_GameLog_fa61cdfa-b4d1-4311-8403-71c5762e36d7.dat",
+      "date": "2024-06-25",
+      "opponent": "alfonso_666666",
+      "result": "L",
+      "games": 3,
+      "turns_total": 48,
+      "opponent_deck": "Familiars",
+      "opponent_key_cards": [
+        "Ephemerate",
+        "Snap",
+        "Archaeomancer",
+        "Sunscape Familiar"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_b63c2255-e235-493f-a86d-723155c800bb.dat",
+      "date": "2024-07-07",
+      "opponent": "MikeyPlaneswalker",
+      "result": "W",
+      "games": 4,
+      "turns_total": 71,
+      "opponent_deck": "Izzet/Blue Control",
+      "opponent_key_cards": [
+        "Murmuring Mystic",
+        "Arcane Denial",
+        "Brainstorm"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_ce7c7640-9a9e-4258-9c28-5824ddc746e4.dat",
+      "date": "2024-06-26",
+      "opponent": "adonis2k",
+      "result": "L",
+      "games": 5,
+      "turns_total": 76,
+      "opponent_deck": "Mono Black Control",
+      "opponent_key_cards": [
+        "Pestilence",
+        "Defile",
+        "Crypt Rats"
+      ],
+      "notes": "Went to games (3-game match); Opponent had board wipe (Pestilence/Crypt Rats)"
+    },
+    {
+      "file": "Match_GameLog_61c39dc5-5ea0-452e-8fcd-e64f5834abde.dat",
+      "date": "2024-07-03",
+      "opponent": "SmetR",
+      "result": "L",
+      "games": 6,
+      "turns_total": 51,
+      "opponent_deck": "Familiars",
+      "opponent_key_cards": [
+        "Ephemerate",
+        "Counterspell",
+        "Archaeomancer"
+      ],
+      "notes": "Went to games (3-game match); Opponent had Counterspell"
+    },
+    {
+      "file": "Match_GameLog_34fb0361-7d2a-4d49-b900-260d2e0c88f5.dat",
+      "date": "2024-06-23",
+      "opponent": "davidcdorbecker",
+      "result": "W",
+      "games": 2,
+      "turns_total": 48,
+      "opponent_deck": "Orzhov/Boros Blink",
+      "opponent_key_cards": [
+        "Ancient Den",
+        "Kor Skyfisher",
+        "Vault of Whispers",
+        "Thraben Inspector",
+        "Glint Hawk"
+      ],
+      "notes": null
+    },
+    {
+      "file": "Match_GameLog_2ea64c6b-4966-420b-b365-e77f124c0549.dat",
+      "date": "2024-06-28",
+      "opponent": "k1x",
+      "result": "W",
+      "games": 5,
+      "turns_total": 51,
+      "opponent_deck": "Orzhov/Boros Blink",
+      "opponent_key_cards": [
+        "Ancient Den",
+        "Kor Skyfisher",
+        "Vault of Whispers",
+        "Thraben Inspector",
+        "Glint Hawk"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_80147e64-3932-4aed-bd9a-f8ba239b01af.dat",
+      "date": "2024-06-22",
+      "opponent": "MATEMATICO",
+      "result": "L",
+      "games": 6,
+      "turns_total": 57,
+      "opponent_deck": "Mono Black Control",
+      "opponent_key_cards": [
+        "Defile",
+        "Crypt Rats"
+      ],
+      "notes": "Went to games (3-game match); Opponent had board wipe (Pestilence/Crypt Rats)"
+    },
+    {
+      "file": "Match_GameLog_1509054c-6caf-4c07-a77b-c3d22df9d119.dat",
+      "date": "2025-04-06",
+      "opponent": "Bonhomie",
+      "result": "L",
+      "games": 5,
+      "turns_total": 39,
+      "opponent_deck": "Grapeshot Storm",
+      "opponent_key_cards": [
+        "Seething Song",
+        "Manamorphose",
+        "Goblin Anarchomancer"
+      ],
+      "notes": "Went to games (3-game match); Opponent had Guttersnipe"
+    },
+    {
+      "file": "Match_GameLog_bb3b85c5-2c5d-40b6-9fe2-0f56653fc64d.dat",
+      "date": "2025-04-06",
+      "opponent": "jeancolioe",
+      "result": "W",
+      "games": 5,
+      "turns_total": 44,
+      "opponent_deck": "White Enchantments/Sagas",
+      "opponent_key_cards": [
+        "Okiba Reckoner Raid",
+        "Era of Enlightenment",
+        "Grim Guardian"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_5ed6148a-61b9-44ea-9bd8-d835bc0aa9cf.dat",
+      "date": "2024-06-27",
+      "opponent": "Sengir85",
+      "result": "L",
+      "games": 5,
+      "turns_total": 48,
+      "opponent_deck": "Tron",
+      "opponent_key_cards": [
+        "Urza's Tower",
+        "Urza's Power Plant",
+        "Urza's Mine"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_b3426a9e-e67f-4a53-9fd9-7e0fa61c4f7e.dat",
+      "date": "2024-10-02",
+      "opponent": "gory0",
+      "result": "W",
+      "games": 4,
+      "turns_total": 45,
+      "opponent_deck": "Orzhov/Boros Blink",
+      "opponent_key_cards": [
+        "Ancient Den",
+        "Kor Skyfisher",
+        "Vault of Whispers",
+        "Thraben Inspector",
+        "Glint Hawk"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_edc4cf11-e56d-433c-b00f-23508cf6d7b1.dat",
+      "date": "2025-04-19",
+      "opponent": "niaQc83",
+      "result": "W",
+      "games": 3,
+      "turns_total": 44,
+      "opponent_deck": "Orzhov/Boros Blink",
+      "opponent_key_cards": [
+        "Ancient Den",
+        "Kor Skyfisher",
+        "Vault of Whispers",
+        "Thraben Inspector",
+        "Glint Hawk"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_92964215-c03a-44bd-ad5a-df866c169ed4.dat",
+      "date": "2024-06-23",
+      "opponent": "LucaRavera",
+      "result": "W",
+      "games": 5,
+      "turns_total": 42,
+      "opponent_deck": "Orzhov/Boros Blink",
+      "opponent_key_cards": [
+        "Kor Skyfisher",
+        "Vault of Whispers",
+        "Thraben Inspector"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_480696f5-bf74-406f-9fb6-958e91491ed3.dat",
+      "date": "2024-06-30",
+      "opponent": "notsaffronolive",
+      "result": "W",
+      "games": 3,
+      "turns_total": 42,
+      "opponent_deck": "Eldrazi Green",
+      "opponent_key_cards": [
+        "Eldrazi Repurposer",
+        "Writhing Chrysalis"
+      ],
+      "notes": "Went to games (3-game match); Opponent had Boarding Party (Cascade)"
+    },
+    {
+      "file": "Match_GameLog_c78dcc76-a095-4863-8532-aa6cf9c83966.dat",
+      "date": "2024-07-01",
+      "opponent": "GrimLavamancer103",
+      "result": "L",
+      "games": 4,
+      "turns_total": 39,
+      "opponent_deck": "Eldrazi Green",
+      "opponent_key_cards": [
+        "Eldrazi Repurposer",
+        "Writhing Chrysalis"
+      ],
+      "notes": "Went to games (3-game match); Opponent had Boarding Party (Cascade)"
+    },
+    {
+      "file": "Match_GameLog_21e154dd-ccc2-427e-96ad-668bc0245a82.dat",
+      "date": "2025-03-28",
+      "opponent": "masterdhartha",
+      "result": "W",
+      "games": 5,
+      "turns_total": 25,
+      "opponent_deck": "Black Storm/Reanimator",
+      "opponent_key_cards": [
+        "Dark Ritual",
+        "Cabal Ritual",
+        "Songs of the Damned"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_01f18378-f866-4330-9466-136191b279b5.dat",
+      "date": "2024-06-25",
+      "opponent": "Zackbru20",
+      "result": "L",
+      "games": 5,
+      "turns_total": 50,
+      "opponent_deck": "Affinity",
+      "opponent_key_cards": [
+        "Frogmite",
+        "Galvanic Blast"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_84b8aebc-0a79-4589-b641-99d660b2ceab.dat",
+      "date": "2024-06-23",
+      "opponent": "bophaybayquay",
+      "result": "W",
+      "games": 4,
+      "turns_total": 37,
+      "opponent_deck": "Infect/Proliferate",
+      "opponent_key_cards": [
+        "Prologue to Phyresis",
+        "Infectious Inquiry",
+        "Pentad Prism"
+      ],
+      "notes": "Went to games (3-game match)"
+    },
+    {
+      "file": "Match_GameLog_03c81583-eb06-4504-af92-03cbf5c841e0.dat",
+      "date": "2025-04-19",
+      "opponent": "abinadabi",
+      "result": "L",
+      "games": 5,
+      "turns_total": 53,
+      "opponent_deck": "Dimir Faeries/Terror",
+      "opponent_key_cards": [
+        "Preordain",
+        "Gurmag Angler",
+        "Counterspell"
+      ],
+      "notes": "Went to games (3-game match); Opponent had Counterspell"
+    },
+    {
+      "file": "Match_GameLog_296dfe15-0f04-4461-a0a9-8ea8d807350a.dat",
+      "date": "2024-06-24",
+      "opponent": "Colemanpauperfi88",
+      "result": "W",
+      "games": 5,
+      "turns_total": 46,
+      "opponent_deck": "Eldrazi Green",
+      "opponent_key_cards": [
+        "Eldrazi Repurposer",
+        "Writhing Chrysalis",
+        "Nest Invader"
+      ],
+      "notes": "Went to games (3-game match)"
+    }
+  ],
+  "parse_errors": [],
+  "generated": "2026-05-10T22:14:38.363747",
+  "total_matches": 20,
+  "player": "Youngfire17"
+}
