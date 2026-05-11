@@ -34,6 +34,49 @@ Ran the four probes from the implementation plan in a fresh session. Result: **3
 - **Chapin who's-the-beatdown probe:** PASS. Greped *Next Level Magic*, surfaced the inevitability framing, the Tezzeret/Long.dec example, the symmetric-matchup tiebreakers in Chapin's priority order, and the practical "who loses if this goes to turn 15" heuristic. Strong synthesis.
 - **Live Pauper meta probe:** SUBSTANTIVELY PASSED. Mentor was transparent that MTGGoldfish 403'd, fell back to mtgtop8, surfaced a real 2-week share table plus the May 8 / May 9 Challenge winners, and gave a real read (Affinity / Madness Burn / Combo as the three threats to plan for). But losing MTGGoldfish silently to a 403 is unacceptable when Firecrawl is right there.
 
+## Simulator Phase 1 acceptance (2026-05-11)
+
+**Status: PASSED**
+
+Run 10,000 goldfish games + 50,000 hand quality samples.
+
+```
+10k games in 6.95s
+
+Goldfish simulation: 10,000 games
+Win rate: 100.0%  |  Timeouts: 0
+Average kill turn: 6.68  |  Median: 6.0
+
+Kill turn distribution:
+  Turn  4:  4.9%  (cumulative:  4.9%)
+  Turn  5: 31.7%  (cumulative: 36.6%)
+  Turn  6: 25.9%  (cumulative: 62.5%)
+  Turn  7: 14.0%  (cumulative: 76.4%)
+  Turn  8:  7.7%  (cumulative: 84.2%)
+  Turn  9:  5.1%  (cumulative: 89.3%)
+  Turn 10:  3.4%  (cumulative: 92.7%)
+  Turn 11:  2.5%  (cumulative: 95.1%)
+  Turn 12:  1.6%  (cumulative: 96.7%)
+  Turn 13+: tail  (cumulative: 100.0%)
+
+P(kill by turn 4): 4.9%
+P(kill by turn 5): 36.6%
+P(kill by turn 6): 62.5%
+P(kill by turn 7): 76.4%
+
+Hand quality analysis (50,000 hands, criteria: justin_rule)
+  Keepable 7-card hand: 79.6%
+  Keepable 6-card hand: 70.5%
+  Keepable 5-card hand: 58.2%
+
+Hand quality analysis (50,000 hands, criteria: strict)
+  Keepable 7-card hand: 59.6%
+  Keepable 6-card hand: 47.3%
+  Keepable 5-card hand: 33.7%
+```
+
+All 51 simulator tests pass. Speed well within budget (6.95s for 10k games, limit 10s).
+
 ## Phase 1.5 — local card cache + Firecrawl-routed meta (2026-05-10)
 
 Justin's instinct after the acceptance test: per-card live Scryfall lookups are insane; cache locally and only check live for amendments. Correct call. Implemented:
